@@ -1,0 +1,51 @@
+# Hey Emacs, this is a -*- org -*- file ...
+#+TITLE: org-mode template
+#+AUTHOR:    Hi Mom
+#+EMAIL:     user@somewhere.org
+#+DESCRIPTION: Org mode template
+#+KEYWORDS:  syntax, org, document
+#+LANGUAGE:  en
+#+STARTUP: overview indent
+#+OPTIONS: H:5 num:nil toc:nil p:t
+#+OPTIONS: d:("HEADER")
+#+PROPERTY: header-args :eval never-export
+#+TOC: ALT_TITLE:Index headlines 1
+# Adapted from https://dev.to/erickgnavar/auto-build-and-publish-emacs-org-configuration-as-a-website-2cl9
+
+* Quick Notes
+** Configuration
+*** sitename
+- put the full site url here
+- example for https://mysite.mydomain.com/magic use mysite.mydomain.com/magic
+*** orglist
+- simple list of org files without the .org extension
+*** index.org
+- the first org file, get's converted to index.html
+
+* Mon
+** New
+*** Stuff
++ details
++ stuff right now
++ stuff from last week
+*** More Stuff
++ more details
+** Old
+*** Old project
+*** Older project
+
+* Tue
+** New
+** Old
+
+* Wed
+** New
+** Old
+
+* Thu
+** New
+** Old
+
+* Fri
+** New
+** Old
